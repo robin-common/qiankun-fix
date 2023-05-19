@@ -1,11 +1,11 @@
 {
-  "name": "@qiankun-fix/element-ui",
+  "name": "@qiankun-fix/antd",
   "version": "0.1.0",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "scripts": {
-    "build:main": "rollup --config ../script/rollup.config.js -w",
+    "build": "rollup -c -w",
     "publish": "npm publish"
   },
   "publishConfig": {

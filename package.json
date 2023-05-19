@@ -2,20 +2,23 @@
   "name": "qiankun-fix",
   "description": "An JavaScript fixer for qiankun sub-apps",
   "private": true,
+  "version": "0.1.0",
   "scripts": {
-    "build:main": "rollup -c -w",
     "preinstall": "node ./script/preinstall.js",
     "eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
-    "commit": "cz"
+    "commit": "cz",
+    "release": "release-it"
   },
   "author": "RobinWM",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
     "@babel/core": "^7.21.8",
     "@babel/preset-env": "^7.21.5",
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^17.6.3",
+    "@release-it/conventional-changelog": "^5.1.1",
+    "@rollup/plugin-alias": "^5.0.0",
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
@@ -25,11 +28,11 @@
     "eslint": "^8.40.0",
     "husky": "^8.0.3",
     "prettier": "^2.8.8",
+    "release-it": "^15.10.3",
     "rollup": "^3.22.0"
   },
   "workspaces": [
-    "antd/*",
-    "elementUI/*"
+    "packages/*"
   ],
   "config": {
     "commitizen": {
