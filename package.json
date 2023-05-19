@@ -5,12 +5,13 @@
   "scripts": {
     "build:main": "rollup -c -w",
     "preinstall": "node ./script/preinstall.js",
-    "lint:lint-staged": "lint-staged -c ./.husky/lint-staged.config.js",
-    "standard-version": "standard-version"
+    "standard-version": "standard-version",
+    "eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
+    "commit": "git-cz"
   },
   "author": "RobinWM",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "devDependencies": {
     "@babel/core": "^7.21.8",
     "@babel/preset-env": "^7.21.5",
@@ -28,12 +29,13 @@
     "eslint": "^8.40.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8",
     "rollup": "^3.22.0",
     "standard-version": "^9.5.0"
   },
   "config": {
     "commitizen": {
-      "path": "node_modules/cz-customizable"
+      "path": "./node_modules/cz-conventional-changelog"
     }
   },
   "lint-staged": {
