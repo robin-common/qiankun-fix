@@ -1,0 +1,32 @@
+{
+  "github": {
+    "release": true
+  },
+  "git": {
+    "requireCleanWorkingDir": false
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": {
+        "name": "conventionalcommits",
+        "types": [
+          {
+            "type": "feat",
+            "section": "✨新功能"
+          },
+          {
+            "type": "fix",
+            "section": "🐛问题修复"
+          },
+          {
+            "type": "docs",
+            "section": "📚文档"
+          }
+        ]
+      },
+      "infile": "CHANGELOG.md",
+      "ignoreRecommendedBump": true,
+      "strictSemVer": true
+    }
+  }
+}
