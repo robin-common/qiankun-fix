@@ -3,7 +3,8 @@
     "release": true
   },
   "git": {
-    "requireCleanWorkingDir": false
+    "requireCleanWorkingDir": false,
+    "commitMessage": "chore(tag): release v${version}"
   },
   "plugins": {
     "@release-it/conventional-changelog": {
