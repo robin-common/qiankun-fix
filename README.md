@@ -1,7 +1,13 @@
 # [qiankun-fix](https://github.com/RobinWM/qiankun-fix)
 
+## @qiankun-fix/antd
 [![npm version](https://img.shields.io/npm/v/@qiankun-fix/antd.svg?style=flat-square)](https://www.npmjs.com/package/@qiankun-fix/antd)
-[![npm version](https://img.shields.io/npm/v/@qiankun-fix/element-ui.svg?style=flat-square)](https://www.npmjs.com/package/@qiankun-fix/element-ui)
+
+## @qiankun-fix/element-ui
+[![npm version](https://img.shields.io/npm/v/@qiankun-fix/element-ui.svg?style=flat-square)](https://www.npmjs.com/package/
+@qiankun-fix/element-ui)
+
+## 许可证
 [![license](https://img.shields.io/npm/l/@qiankun-fix/antd.svg?style=flat-square)](https://github.com/RobinWM/qiankun-fix/blob/master/LICENSE)
 
 qiankun-fix 是一个用于解决 qiankun 框架下子应用适配的 JavaScript 库。
