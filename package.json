@@ -2,7 +2,7 @@
   "name": "qiankun-fix",
   "description": "An JavaScript fixer for qiankun sub-apps",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "scripts": {
     "preinstall": "node ./script/preinstall.js",
     "eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",

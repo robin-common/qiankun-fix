@@ -1,5 +1,13 @@
 
 
+## [0.2.1](https://github.com/RobinWM/qiankun-fix/compare/0.2.0...0.2.1) (2023-05-22)
+
+
+### ✨新功能
+
+* 代码结构更改 ([cf68460](https://github.com/RobinWM/qiankun-fix/commit/cf68460968e604e6b1e2d037426f0da2e2cd0136))
+* 配置脚本更新 ([ef157f4](https://github.com/RobinWM/qiankun-fix/commit/ef157f4ce05c71f73b513e589b7b25f824a4191f))
+
 ## 0.2.0 (2023-05-19)
 
 
