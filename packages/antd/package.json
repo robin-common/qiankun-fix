@@ -1,6 +1,6 @@
 {
   "name": "@qiankun-fix/antd",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -14,7 +14,7 @@
   },
   "type": "module",
   "author": "RobinWM",
-  "keys": [
+  "Keywords": [
     "qiankun",
     "微前端",
     "antd",
