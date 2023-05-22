@@ -14,7 +14,7 @@
   },
   "type": "module",
   "author": "RobinWM",
-    "Keywords": [
+  "keywords": [
     "qiankun",
     "微前端",
     "element-UI",
