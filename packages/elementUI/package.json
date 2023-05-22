@@ -1,6 +1,6 @@
 {
   "name": "@qiankun-fix/element-ui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -14,6 +14,12 @@
   },
   "type": "module",
   "author": "RobinWM",
+    "keys": [
+    "qiankun",
+    "微前端",
+    "element-UI",
+    "vue"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.21.8",
