@@ -1,5 +1,20 @@
 
 
+## [0.2.2](https://github.com/RobinWM/qiankun-fix/compare/0.2.1...0.2.2) (2023-05-22)
+
+
+### ✨新功能
+
+* 版本更新 ([cd52e37](https://github.com/RobinWM/qiankun-fix/commit/cd52e374c0c6e8bb541f67929923ed4c1403664b))
+* 包配置更新 ([46b1661](https://github.com/RobinWM/qiankun-fix/commit/46b1661b570c0393c28db62469b9ea3b11bb07fe))
+* 更新readme文件 ([17ddafd](https://github.com/RobinWM/qiankun-fix/commit/17ddafdd9f095353fb314c4b18d420fbae17f5b3))
+* 更新readme文件 ([a2a1531](https://github.com/RobinWM/qiankun-fix/commit/a2a15318e28c7e79ccb9b6b2e628091b26e7fc9c))
+* 增加keywords ([8c969d7](https://github.com/RobinWM/qiankun-fix/commit/8c969d7cbb72157c0e8feb0b19f0a136a68a3318))
+* 增加keywords ([3f1720f](https://github.com/RobinWM/qiankun-fix/commit/3f1720f36b2fc4dcf162f92db8c1efd2fbb9a28e))
+* 增加keywords ([c5b85d7](https://github.com/RobinWM/qiankun-fix/commit/c5b85d711bcb5ef11fb4a000f7d8699c40dc45ac))
+* 增加keywords ([29c8c7d](https://github.com/RobinWM/qiankun-fix/commit/29c8c7dec8f69f61d69a44d2bb09f249e646b75c))
+* readme文件更新 ([44272f6](https://github.com/RobinWM/qiankun-fix/commit/44272f66671a5d1dee01980041f553733c095f8a))
+
 ## [0.2.1](https://github.com/RobinWM/qiankun-fix/compare/0.2.0...0.2.1) (2023-05-22)
 
 
