@@ -39,6 +39,9 @@
     "*.json"
   ],
   "release-it": {
+    "node": {
+      "release": true
+    },
     "github": {
       "release": false
     },
