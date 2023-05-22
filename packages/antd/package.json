@@ -36,7 +36,8 @@
   },
   "files": [
     "dist/*",
-    "*.json"
+    "*.json",
+    "*.md"
   ],
   "release-it": {
     "node": {
