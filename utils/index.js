@@ -2,7 +2,7 @@ export function isInQianKun() {
   return window.__POWERED_BY_QIANKUN__;
 }
 
-export function fixStyle({ container }, options = { whiteList: [] }) {
+export function fixStyle({ container }, options) {
   if (!isInQianKun()) {
     return;
   }

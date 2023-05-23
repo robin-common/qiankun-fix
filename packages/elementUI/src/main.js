@@ -1,10 +1,10 @@
-import rewriteContainer from "@/rewriteContainer.js"
-import { fixStyle, isInQianKun } from "@root/utils/index.js"
+import rewriteContainer from "@/rewriteContainer.js";
+import { fixStyle, isInQianKun } from "@root/utils/index.js";
 
-function fixElementStyle({ container }, options = {}) {
-  fixStyle({ container }, options)
+function fixElementStyle({ container }, options = { whiteList: [] }) {
+  fixStyle({ container }, options);
 
-  rewriteContainer()
+  rewriteContainer();
 }
 
-export { fixElementStyle, isInQianKun }
+export { fixElementStyle, isInQianKun };
