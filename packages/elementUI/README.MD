@@ -8,7 +8,7 @@
 ### (1)安装
 
 ```Javascript
-import { isInQianKun, fixElementStyle } from '@qiankun-fix/antd'
+import { isInQianKun, fixElementStyle } from '@qiankun-fix/element-ui'
 ```
 
 ### (2)调用fixElementStyle
