@@ -1,5 +1,18 @@
 
 
+## [0.2.5](https://github.com/RobinWM/qiankun-fix/compare/0.2.2...0.2.5) (2023-05-23)
+
+
+### 🐛问题修复
+
+* 优化fixStyle函数 ([f575314](https://github.com/RobinWM/qiankun-fix/commit/f575314e575025b5585c41348b72a62b12886a4d))
+
+
+### ✨新功能
+
+* 增加默认参数 ([8a0fc7a](https://github.com/RobinWM/qiankun-fix/commit/8a0fc7a2e87b97bedf388cdb6853fea4fc8179fb))
+* update .gitignore ([6825339](https://github.com/RobinWM/qiankun-fix/commit/68253395a43c21c2d5e23d9f16fbdb353c454e2d))
+
 ## [0.2.2](https://github.com/RobinWM/qiankun-fix/compare/0.2.1...0.2.2) (2023-05-22)
 
 
