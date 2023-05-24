@@ -1,5 +1,13 @@
 
 
+## [0.2.6](https://github.com/RobinWM/qiankun-fix/compare/0.2.5...0.2.6) (2023-05-24)
+
+
+### ✨新功能
+
+* 新增状态管理actions ([43d3f2c](https://github.com/RobinWM/qiankun-fix/commit/43d3f2cc4c204fcb0584e0c8f65f1d3e8343f0d5))
+* **antd:** 更新到v0.2.3 ([96ea538](https://github.com/RobinWM/qiankun-fix/commit/96ea53898dcc18783813ad92a499e64a7f7f94e4))
+
 ## [0.2.5](https://github.com/RobinWM/qiankun-fix/compare/0.2.2...0.2.5) (2023-05-23)
 
 
