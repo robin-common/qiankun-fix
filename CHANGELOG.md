@@ -1,5 +1,12 @@
 
 
+## [0.2.7](https://github.com/RobinWM/qiankun-fix/compare/0.2.6...0.2.7) (2023-05-25)
+
+
+### 🐛问题修复
+
+* 元素选择器漏掉# ([a8a891a](https://github.com/RobinWM/qiankun-fix/commit/a8a891a65274c9642b0ea9bdc2bdb79fbce56406))
+
 ## [0.2.6](https://github.com/RobinWM/qiankun-fix/compare/0.2.5...0.2.6) (2023-05-24)
 
 
