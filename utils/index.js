@@ -19,7 +19,7 @@ export function fixStyle({ container }, options) {
   document.body.appendChild = (dom) => {
     // 根据标记，来区分是否用新的挂载方式
     if (whiteList.some((l) => (dom.className || "").includes(l))) {
-      container.querySelector(options.elementId).appendChild(dom);
+      container.querySelector(`#${options.elementId}`).appendChild(dom);
     } else {
       originFn(dom);
     }
