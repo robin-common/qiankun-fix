@@ -2,8 +2,8 @@ import rewriteContainer from "@/rewriteContainer.js";
 import { fixStyle, isInQianKun } from "@root/utils";
 import actions from "@root/utils/actions";
 
-function fixElementStyle({ container }, options = { whiteList: [] }) {
-  fixStyle({ container }, options);
+function fixElementStyle(props, options) {
+  fixStyle(props, options);
 
   rewriteContainer();
 }

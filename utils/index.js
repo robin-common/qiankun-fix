@@ -10,7 +10,7 @@ export function fixStyle({ container }, options) {
   const originList = ["vxe-table--tooltip-wrapper", "vxe-pulldown--panel"];
 
   // 子应用中需要挂载到子应用的弹窗的className，用作标记
-  const whiteList = [...originList, ...options.whiteList];
+  const whiteList = [...originList, ...(options.whiteList || [])];
 
   // 保存原有document.body.appendChild方法
   const originFn = document.body.appendChild.bind(document.body);
