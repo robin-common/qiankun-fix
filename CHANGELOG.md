@@ -1,5 +1,13 @@
 
 
+## [0.3.0](https://github.com/RobinWM/qiankun-fix/compare/0.2.7...0.3.0) (2023-05-26)
+
+
+### 🐛问题修复
+
+* 默认值问题 ([7084f73](https://github.com/RobinWM/qiankun-fix/commit/7084f73bff434d1c0bfa2e3cf7bdd4db9857ce33))
+* 默认值问题 ([ea49c46](https://github.com/RobinWM/qiankun-fix/commit/ea49c46e00447256aef75c6e97dac9d00241b338))
+
 ## [0.2.7](https://github.com/RobinWM/qiankun-fix/compare/0.2.6...0.2.7) (2023-05-25)
 
 
