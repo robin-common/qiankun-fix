@@ -1,5 +1,12 @@
 
 
+## [0.5.0](https://github.com/RobinWM/qiankun-fix/compare/0.3.0...0.5.0) (2023-06-01)
+
+
+### ✨新功能
+
+* 新增关闭当前页功能 ([416f773](https://github.com/RobinWM/qiankun-fix/commit/416f77318dec4bc53e97d1a015c1803925937827))
+
 ## [0.3.0](https://github.com/RobinWM/qiankun-fix/compare/0.2.7...0.3.0) (2023-05-26)
 
 
