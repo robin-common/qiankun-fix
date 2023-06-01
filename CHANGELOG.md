@@ -1,5 +1,12 @@
 
 
+## [0.6.0](https://github.com/RobinWM/qiankun-fix/compare/0.5.0...0.6.0) (2023-06-01)
+
+
+### ✨新功能
+
+* 关闭主应用tab功能 ([6390ff9](https://github.com/RobinWM/qiankun-fix/commit/6390ff9a69766628a3efd78402b7a2f919a168d7))
+
 ## [0.5.0](https://github.com/RobinWM/qiankun-fix/compare/0.3.0...0.5.0) (2023-06-01)
 
 
