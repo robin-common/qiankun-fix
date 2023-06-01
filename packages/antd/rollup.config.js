@@ -33,7 +33,7 @@ export default {
     {
       file: "./dist/index.esm.js",
       format: "es",
-      // plugins: [terser()],
+      plugins: [terser()],
       banner: "/* qiankun-style-fix " + pkg.version + " */",
     },
   ],
