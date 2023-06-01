@@ -11,7 +11,7 @@ import {
 
 import Vue from "vue";
 
-export default function rewriteContainer({ elementId = "scmsContaniner" }) {
+export default function rewriteContainer({ elementId }) {
   const container = () => document.getElementById(elementId);
 
   const _this = Vue.prototype;

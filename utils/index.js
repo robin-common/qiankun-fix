@@ -3,10 +3,6 @@ export function isInQianKun() {
 }
 
 export function fixStyle({ container }, options) {
-  if (!isInQianKun()) {
-    return;
-  }
-
   const originList = ["vxe-table--tooltip-wrapper", "vxe-pulldown--panel"];
 
   // 子应用中需要挂载到子应用的弹窗的className，用作标记
