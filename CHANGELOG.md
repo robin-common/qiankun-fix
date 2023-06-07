@@ -1,5 +1,12 @@
 
 
+## [0.6.2](https://github.com/RobinWM/qiankun-fix/compare/0.6.0...0.6.2) (2023-06-07)
+
+
+### ✨新功能
+
+* 优化子应用路由处理方式 ([8a2fb73](https://github.com/RobinWM/qiankun-fix/commit/8a2fb73fb90c2801d1d58fca929e50cc8829a1b3))
+
 ## [0.6.0](https://github.com/RobinWM/qiankun-fix/compare/0.5.0...0.6.0) (2023-06-01)
 
 
