@@ -16,15 +16,15 @@ export default function handleRouter(key, fn) {
   return new Promise((resolve, reject) => {
     if (isInQianKun() && _microName !== key) {
       // 非微应用跳转
+      reject();
       try {
         fn && fn();
         _parentRouter && _parentRouter.push(_parentPath);
-        resolve(false);
       } catch (e) {
         reject(e);
       }
     } else {
-      resolve(true);
+      resolve();
     }
   });
 }
