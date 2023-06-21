@@ -1,5 +1,12 @@
 
 
+## [0.6.3](https://github.com/RobinWM/qiankun-fix/compare/0.6.2...0.6.3) (2023-06-21)
+
+
+### ✨新功能
+
+* **antd:** 新增ant-tree-select ([d3667b2](https://github.com/RobinWM/qiankun-fix/commit/d3667b2a778cafeef5be1f4ccfbb6b489a4c3b65))
+
 ## [0.6.2](https://github.com/RobinWM/qiankun-fix/compare/0.6.0...0.6.2) (2023-06-07)
 
 
