@@ -7,7 +7,6 @@ export default function handleRouter(key, fn) {
   let _microName = "";
 
   actions.onGlobalStateChange((state) => {
-    console.log("子应用监听--》", state);
     _parentPath = state.path;
     _parentRouter = state.router;
     _microName = state.microName;

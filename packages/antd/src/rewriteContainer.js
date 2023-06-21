@@ -7,6 +7,7 @@ import {
   Popconfirm,
   DatePicker,
   Cascader,
+  TreeSelect,
 } from "ant-design-vue";
 
 import Vue from "vue";
@@ -27,6 +28,7 @@ export default function rewriteContainer({ elementId }) {
   DatePicker.RangePicker.props.getCalendarContainer.default = container;
   DatePicker.MonthPicker.props.getCalendarContainer.default = container;
   DatePicker.WeekPicker.props.getCalendarContainer.default = container;
+  TreeSelect.props.getPopupContainer.default = container;
 
   _this.$message.config({
     getContainer: container,
