@@ -15,8 +15,12 @@ function fixElementStyle(props, options) {
     "el-dialog__wrapper",
     "el-popper",
   ];
-  const whiteList = [...originList, ...(options.whiteList || [])];
-  fixStyle(props, { ...options, whiteList });
+
+  const _whiteList = originList.concat(options.whiteList || []);
+
+  const _options = Object.assign({}, options, _whiteList);
+
+  fixStyle(props, _options);
 
   rewriteContainer();
 }
