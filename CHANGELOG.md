@@ -1,5 +1,12 @@
 
 
+## [0.8.5](https://github.com/RobinWM/qiankun-fix/compare/0.8.4...0.8.5) (2023-10-27)
+
+
+### 🐛问题修复
+
+* 样式问题 ([21dc8c8](https://github.com/RobinWM/qiankun-fix/commit/21dc8c853ea210fc7d940cc1824bfcc5be608da6))
+
 ## [0.8.4](https://github.com/RobinWM/qiankun-fix/compare/0.6.3...0.8.4) (2023-10-27)
 
 
