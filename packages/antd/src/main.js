@@ -1,17 +1,18 @@
 import rewriteContainer from "@/rewriteContainer.js";
-import { fixStyle, isInQianKun } from "@root/utils";
+import { isInQianKun } from "@root/utils";
 import actions from "@root/utils/actions";
 import handleRouter from "@root/utils/handleRouter";
 import { closeCurrentTag } from "@root/utils/handleTag";
+import fixComponentsStyle from "./fixComponentsStyle";
 
 function fixElementStyle(props, options) {
   if (!isInQianKun()) {
     return;
   }
 
-  fixStyle(props, options);
+  fixComponentsStyle(props, options);
 
   rewriteContainer(options);
 }
 
-export { fixElementStyle, isInQianKun, actions, handleRouter, closeCurrentTag };
+export { rewriteContainer, fixElementStyle, isInQianKun, actions, handleRouter, closeCurrentTag, fixComponentsStyle };

@@ -1,5 +1,12 @@
 
 
+## [0.8.4](https://github.com/RobinWM/qiankun-fix/compare/0.6.3...0.8.4) (2023-10-27)
+
+
+### ✨新功能
+
+* 兼容webpack3 ([0f89b60](https://github.com/RobinWM/qiankun-fix/commit/0f89b60cc1fe7b4b01f442b5f16a6d73738976a1))
+
 ## [0.6.3](https://github.com/RobinWM/qiankun-fix/compare/0.6.2...0.6.3) (2023-06-21)
 
 
