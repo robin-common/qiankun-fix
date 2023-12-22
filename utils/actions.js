@@ -5,21 +5,21 @@ function noop() {}
 const actions = {
   onGlobalStateChange: noop,
   setGlobalState: noop,
-};
+}
 
 // 设置 actions
 function setActions(stateActions) {
-  Object.assign(actions, stateActions);
+  Object.assign(actions, stateActions)
 }
 
 // 监听变化
 function onGlobalStateChange(...args) {
-  actions.onGlobalStateChange(...args);
+  actions.onGlobalStateChange(...args)
 }
 
 // 更新全局 state 值
 function setGlobalState(...args) {
-  actions.setGlobalState(...args);
+  actions.setGlobalState(...args)
 }
 
-export default { setActions, onGlobalStateChange, setGlobalState };
+export default { setActions, onGlobalStateChange, setGlobalState }

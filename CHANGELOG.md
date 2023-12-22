@@ -1,5 +1,7 @@
 
 
+## [0.9.0](https://github.com/RobinWM/qiankun-fix/compare/0.8.5...0.9.0) (2023-12-22)
+
 ## [0.8.5](https://github.com/RobinWM/qiankun-fix/compare/0.8.4...0.8.5) (2023-10-27)
 
 
